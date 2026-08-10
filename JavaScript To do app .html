@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Todo App</title>
+
+    <style>
+
+        body {
+            font-family: Arial;
+            max-width: 500px;
+            margin: 50px auto;
+        }
+
+        input {
+            padding: 10px;
+            width: 70%;
+        }
+
+        button {
+            padding: 10px;
+        }
+
+        li {
+            margin: 10px 0;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <h1>Todo App</h1>
+
+    <input id="taskInput" placeholder="Enter task">
+
+    <button onclick="addTask()">Add</button>
+
+    <ul id="taskList"></ul>
+
+    <script>
+
+        function addTask() {
+
+            const input =
+                document.getElementById("taskInput");
+
+            const task = input.value.trim();
+
+            if (task === "") {
+                alert("Please enter a task");
+                return;
+            }
+
+            const li = document.createElement("li");
+
+            li.textContent = task;
+
+            li.addEventListener("click", function () {
+                li.remove();
+            });
+
+            document
+                .getElementById("taskList")
+                .appendChild(li);
+
+            input.value = "";
+        }
+
+    </script>
+
+</body>
+</html>
