@@ -1,43 +1,45 @@
-# FSD-2 🚀
+# FSD-1 🚀
 
-My Full Stack Development - 2 learning repository.
+This repository contains my Full Stack Development - 1 learning journey.
 
-This repository contains my practice code for modern web development,
-including JavaScript, React, Node.js, Express.js, REST APIs and databases.
+It includes foundational HTML5, CSS3, JavaScript (DOM & Async), and React basics concepts and practice files.
+
+---
 
 ## 📚 Topics Covered
 
-### HTML
-- Basic HTML Page
-- Forms
+### HTML & CSS Basics
+- HTML5 Semantic Structure
+- Web Forms & Input Validation
+- CSS Flexbox & Responsive Layouts
 
-### CSS
-- Flexbox
+### JavaScript (Vanilla JS)
+- Functions & Scope
+- DOM Manipulation & Events
+- Dynamic To-Do App Project
+- Async JS & Fetch API Integration
 
-### JavaScript
-- Functions
-- DOM Manipulation
-- To-Do App
-- Fetch API
+### React Basics
+- Functional Components
+- JSX Syntax
+- State Management using `useState`
 
-### React
-- Components
-- State
-- Forms
-- API Integration
+---
 
-### Backend
-- Node.js
-- Express.js
-- REST API
-- MongoDB
+## 📂 Repository Structure
 
-## 📂 Programs
-
-- HTML Basic Page
-- HTML Form
-- CSS Flexbox
-- JavaScript Functions
+```text
+FSD-1/
+│
+├── CssflexBox.html
+├── Form.html
+├── HTML basic Page.html
+├── JavaScript DOM.html
+├── JavaScript Function.html
+├── JavaScript To do app .html
+├── JavaScript fatch API.html
+├── React Component.jsx
+└── React State.jsx- JavaScript Functions
 - JavaScript DOM
 - JavaScript To-Do App
 - JavaScript Fetch API
